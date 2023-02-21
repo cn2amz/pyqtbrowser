@@ -9,8 +9,8 @@ from PyQt5.QtWebEngineWidgets import *
 #importing QtCore to use Qurl
 from PyQt5.QtCore import *
 
-from flask import Flask
-app = Flask(__name__)
+# from flask import Flask
+# app = Flask(__name__)
 
 # @app.route("/")
 
@@ -104,5 +104,5 @@ window = Window()
 #executing created app
 MyApp.exec_()
 
-if __name__ == '__main__':
-    app.run()
+# if __name__ == '__main__':
+#     app.run()
