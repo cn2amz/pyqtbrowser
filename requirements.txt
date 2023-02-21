@@ -5,3 +5,7 @@ PyQt5-sip==12.11.1
 PyQtWebEngine==5.15.6
 PyQtWebEngine-Qt5==5.15.2
 gunicorn==20.1.0
+et-xmlfile==1.1.0
+eventlet==0.33.3
+gevent==22.10.2
+greenlet==2.0.2
