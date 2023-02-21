@@ -12,7 +12,7 @@ from PyQt5.QtCore import *
 from flask import Flask
 app = Flask(__name__)
 
-@app.route("/")
+# @app.route("/")
 
 #main window class (to create a window)-sub class of QMainWindow class
 class Window(QMainWindow):
