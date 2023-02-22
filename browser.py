@@ -9,11 +9,6 @@ from PyQt5.QtWebEngineWidgets import *
 #importing QtCore to use Qurl
 from PyQt5.QtCore import *
 
-# from flask import Flask
-# app = Flask(__name__)
-
-# @app.route("/")
-
 #main window class (to create a window)-sub class of QMainWindow class
 class Window(QMainWindow):
 
@@ -96,13 +91,10 @@ class Window(QMainWindow):
 MyApp = QApplication(sys.argv)
 
 #setting application name
-QApplication.setApplicationName('Web Browser')
+QApplication.setApplicationName('TechVidvan Web Browser')
 
 #creating window
 window = Window()
 
 #executing created app
 MyApp.exec_()
-
-# if __name__ == '__main__':
-#     app.run()
